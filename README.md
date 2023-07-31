@@ -1,1 +1,1 @@
-# Jenny-s-Thesis
+# Jennys-Thesis
