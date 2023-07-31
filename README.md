@@ -1,4 +1,4 @@
-# jgnu+tros-thesis
+# jngu+tros-thesis
 
 Thesis title: Detection of Appearance-Based Tweets Mentioning U.S. Politicians with fastText and VADER
 
