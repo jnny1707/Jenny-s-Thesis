@@ -38,6 +38,7 @@ df_no_dub['Buttigieg'] = df_no_dub.text.apply(lambda x: count_buttigieg(x))
 df_no_dub['Boebert'] = df_no_dub.text.apply(lambda x: count_boebert(x))
 df_no_dub['Booker'] = df_no_dub.text.apply(lambda x: count_booker(x))
 
+# Only for statistics
 # Create a dataframe that stores the frequency of each politician is mentioned
 politician_mentioned = {
     'Politician': ['Ocasio-Cortez', 'Greene', 'Gaetz', 'Cruz', 'Harris', 'Buttigieg', 'Boebert', 'Booker'],
@@ -45,7 +46,7 @@ politician_mentioned = {
                   df_no_dub['Harris'].sum(), df_no_dub['Buttigieg'].sum(), df_no_dub['Boebert'].sum(),
                   df_no_dub['Booker'].sum()]}
 politician_mentioned = pd.DataFrame(politician_mentioned)
-politician_mentioned # For statistics
+politician_mentioned
 
 # The tweets with sums less than 2 are included in a new dataframe
 # By creating a new column 'single_mentioned' that is 'True' if that text contains only one politician and 'False' otherwise. The True rows are added to the new dataframe
