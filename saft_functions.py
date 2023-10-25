@@ -63,7 +63,7 @@ def as_list(list_of_tokens):
     return as_list
 
 # If a similarity value is less than the threshold the value is set to 0
-# This function is used in list_avg_thr5()
+# This function is used in as_list_thr()
 def lowval_to_zero(as_tuple):
     word = as_tuple[0]
     similarity = as_tuple[1]
