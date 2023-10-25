@@ -50,7 +50,7 @@ def word_as_tuple(word):
     else:
         for appear_word in appearance_based_words:
             if max_word_similarity > 0.95:
-                return [word, max_word_similarity]
+                return (word, max_word_similarity)
             similarity = fast_Text_model.wv.similarity(appear_word, word)
             if similarity > max_word_similarity:
                 max_word_similarity = similarity
