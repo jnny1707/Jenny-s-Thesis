@@ -2,7 +2,7 @@
 
 Thesis title: Detection of Appearance-Based Tweets Mentioning U.S. Politicians with fastText and VADER
 
-This repository contains the code for our thesis, which investigates the differences in how female and male politicians are referred to in regard to their physical appearance on Twitter. For this, we propose a new experimental method called Scoring Appearance with fastText (SAFT) that estimate the amount of appearance-based language that is present in a tweet. Additionally, we do an analysis to determine how the sentiment (positive, neutral or negative) is expressed in the tweets.
+This repository contains the code for our thesis, which investigates the differences in how female and male politicians are referred to in regard to their physical appearance on Twitter. For this, we propose a new experimental method called Scoring Appearance with FastText (SAFT) that estimate the amount of appearance-based language that is present in a tweet. Additionally, we do an analysis to determine how the sentiment (positive, neutral or negative) is expressed in the tweets.
 Based on approx. 3M tweets (5M tweets were retrieved using the Tweepy API. These were preprocessed down to 3M).
 
 Findings:
