@@ -1,6 +1,6 @@
 # jngu+tros-thesis
 
-Thesis title: Detection of Appearance-Based Tweets Mentioning U.S. Politicians with fastText and VADER
+Thesis title: Detection of Appearance-Based Tweets Mentioning U.S. Politicians with fastText and VADER (Read our thesis by opening the 'Thesis.pdf')
 
 This repository contains the code for our thesis. The thesis investigates how politicians in the U.S. are discussed on Twitter. More specific, we want to find out the difference in how female and male politicians are referred to in regard to their physical appearance on the platform. For this, we propose a new experimental method called Scoring Appearance with FastText (SAFT) that estimate the presence of appearance-based language in a tweet. Additionally, we do an analysis to determine how the sentiment (positive, neutral or negative) is expressed in the tweets.
 Based on approx 3M tweets (5M tweets were retrieved using the Tweepy API, which are preprocessed down to 3M).
